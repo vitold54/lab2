@@ -71,6 +71,7 @@ public:
 		 D = abs(x3)- abs(x1);
 		 S = abs(H) * abs(D);
 		 return S;
+	}
 		
 	int perimeter()
 	{
@@ -110,5 +111,6 @@ public:
 		DA = abs(x4) - abs(x1);
 		S = abs(AB) * abs(BC);
 		return S;
+	}
 	
 };
