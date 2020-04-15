@@ -65,14 +65,14 @@ public:
 	}
 	
 
-	void area()
+	int area()
 	{
 		 H = abs(y3) - abs(y1);
 		 D = abs(x3)- abs(x1);
 		 S = abs(H) * abs(D);
 		 return S;
 		
-	void perimeter()
+	int perimeter()
 	{
 		H = abs(y3) - abs(y1);
 		D = abs(x3)- abs(x1);
@@ -92,7 +92,7 @@ public:
 	}
 
 
-	void perimeter2 ()
+	int perimeter2 ()
 	{
 		AB = abs(y2) - abs(y1);
 		BC = abs(x3) - abs(x2);
@@ -102,7 +102,7 @@ public:
 		return P;
 	}
 		
-	void area2()
+	int area2()
 	{
 		AB = abs(y2) - abs(y1);
 		BC = abs(x3) - abs(x2);
